@@ -1,0 +1,54 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="64" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="torch" />
+          <option value="torch-geometric" />
+          <option value="torchaudio" />
+          <option value="torchvision" />
+          <option value="torch-scatter" />
+          <option value="torch-sparse" />
+          <option value="torch-cluster" />
+          <option value="torch-spline-conv" />
+          <option value="networkx" />
+          <option value="pyvis" />
+          <option value="numpy" />
+          <option value="scikit-learn" />
+          <option value="scipy" />
+          <option value="numba" />
+          <option value="matplotlib" />
+          <option value="umap-learn" />
+          <option value="pillow" />
+          <option value="pyghidra" />
+          <option value="jpype1" />
+          <option value="Flask" />
+          <option value="flask-cors" />
+          <option value="aiohttp" />
+          <option value="requests" />
+          <option value="tqdm" />
+          <option value="colorama" />
+          <option value="ipython" />
+          <option value="pytest" />
+          <option value="pycycle" />
+          <option value="jsonpickle" />
+          <option value="Jinja2" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
